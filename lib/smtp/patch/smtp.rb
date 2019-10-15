@@ -1,3 +1,5 @@
+require 'net/smtp'
+
 module Net
   class SMTPErrors < ProtoAuthError
     include SMTPError
