@@ -1,6 +1,6 @@
 ## SMTP Patch
 
-Enhance Ruby net/smtp library to support never interrupted by errors while mail sending to multiple receptions.
+Enhance Ruby net/smtp library to be never interrupted by errors while mail sending to multiple recipients.
 
 ### Installation
 
@@ -14,7 +14,7 @@ Install the gem with bundler:
 
 ## Usage
 
-By default, the mail will always be sent when you are sending a mail to multiple receiptions. However, during the sending, if there are errors happened, the errors will not raise at once but raise after email sent out. You can catch the errors like below:
+By default, the mail will always be sent when you are sending a mail to multiple recipients. However, during the sending, if there are errors happened, the errors will not raise at once but raise after email sent out. You can catch the errors like below:
 
 ```ruby
 begin

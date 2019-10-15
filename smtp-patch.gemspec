@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Charles Koyeung"]
   spec.email         = ["cenxky@gmail.com"]
 
-  spec.summary       = "Enhance Ruby net/smtp library to support never interrupted by errors while mail sending to multiple receptions."
-  spec.description   = "Enhance Ruby net/smtp library to support never interrupted by errors while mail sending to multiple receptions."
+  spec.summary       = "Enhance Ruby net/smtp library to be never interrupted by errors while mail sending to multiple recipients."
+  spec.description   = "Enhance Ruby net/smtp library to be never interrupted by errors while mail sending to multiple recipients."
   spec.homepage      = "https://github.com/cenxky/smtp-patch"
   spec.license       = "MIT"
 
